@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/samples/" />
+  <Folder Name="/src/">
+    <Project Path="AutoRoute.Abstarctions/AutoRoute.Abstarctions.csproj" />
+    <Project Path="AutoRoute/AutoRoute.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+</Solution>
