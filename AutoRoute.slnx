@@ -1,7 +1,7 @@
 <Solution>
   <Folder Name="/samples/" />
   <Folder Name="/src/">
-    <Project Path="AutoRoute.Abstarctions/AutoRoute.Abstarctions.csproj" />
+    <Project Path="AutoRoute.WebScrapping/AutoRoute.WebScrapping.csproj" Id="16d86ee6-9a9a-4b52-bd0b-1a7fa083fe71" />
     <Project Path="AutoRoute/AutoRoute.csproj" />
   </Folder>
   <Folder Name="/tests/" />

@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AutoRoute.Abstarctions.Outputs
+namespace AutoRoute.Abstarctions.Inputs
 {
-    public interface IOutputType
+    public interface IInputType
     {
         public string Name { get; }
-        public Exception? Exception { get; }
     }
 }

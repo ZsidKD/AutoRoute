@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AutoRoute.Abstarctions.Outputs
+namespace AutoRoute.Abstarctions.Locators
 {
-    public class OutputHtml
+    public class ByCSS
     {
     }
 }

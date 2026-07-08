@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AutoRoute.Abstarctions.Context
+namespace AutoRoute.Abstarctions.Outputs
 {
-    public interface ICommandContext
+    internal class OutputImage
     {
-
     }
 }

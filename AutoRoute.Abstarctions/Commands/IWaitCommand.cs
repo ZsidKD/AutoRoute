@@ -7,6 +7,6 @@ namespace AutoRoute.Abstarctions.Commands
 {
     public interface IWaitCommand
     {
-        public DateTime WaitingTime;
+        public DateTime TimeOut { get; set; }
     }
 }

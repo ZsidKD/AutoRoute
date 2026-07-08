@@ -4,7 +4,9 @@ using System.Text;
 
 namespace AutoRoute.Abstarctions.Locators
 {
-    internal class ByText
+    public class ByText : ILocator
     {
+        public string LocatorType { get; set; }
+        public string Text { get; set; }
     }
 }

@@ -7,7 +7,7 @@ namespace AutoRoute.Abstarctions.Routing
 {
     public interface IRouteBuider
     {
-        public IRouteBuider AddStep(IAutomationCommand command);
-        public IRoute Build();
+        public IRoute AddStep(IAutomationCommand command);
+        public IRoute AddStep(ICollection<IAutomationCommand> commands);
     }
 }

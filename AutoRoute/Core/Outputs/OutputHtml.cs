@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AutoRoute.Abstarctions.Elements
+namespace AutoRoute.Abstarctions.Outputs
 {
-    internal interface IElementState
+    public class OutputHtml
     {
     }
 }

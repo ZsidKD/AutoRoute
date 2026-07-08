@@ -8,5 +8,8 @@ namespace AutoRoute.Abstarctions.Commands
     public interface IClickCommand : IAutomationCommand
     {
         public ILocator Target { get; set; }
+        public string? Name { get; set; }
+        public TimeSpan? TimeOut { get; set; }
+        public string? Description { get; set; }
     }
 }

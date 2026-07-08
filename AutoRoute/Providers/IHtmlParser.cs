@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AutoRoute.Abstarctions.Outputs
+namespace AutoRoute.Providers
 {
-    public class OutputHtml
+    internal interface IHtmlParser
     {
     }
 }

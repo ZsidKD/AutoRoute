@@ -1,13 +1,12 @@
-﻿using System;
+﻿using AutoRoute.Abstarctions.Inputs;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace AutoRoute.Abstarctions.Commands
 {
-    public interface IAutomationCommand
+    public interface IWaitCommand
     {
-        public string Name { get; set; }
         public TimeSpan TimeOut { get; set; }
-        public string Description { get; set; }
     }
 }

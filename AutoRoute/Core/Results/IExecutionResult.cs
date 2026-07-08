@@ -6,8 +6,7 @@ namespace AutoRoute.Abstarctions.Results
 {
     public interface IExecutionResult
     {
-        public string Source { get; }
-        public Exception? Exception { get; }
-
+        public string source { get; }
+        public Exception? exception { get; }
     }
 }

@@ -4,9 +4,8 @@ using System.Text;
 
 namespace AutoRoute.Abstarctions.Locators
 {
-    public class ByCSS : ILocator
+    public class ByXPath : ILocator
     {
         public string LocatorType { get; set; }
-        public string CssObject { get; set; }
     }
 }

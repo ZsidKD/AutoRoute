@@ -4,7 +4,9 @@ using System.Text;
 
 namespace AutoRoute.Abstarctions.Outputs
 {
-    public class OutputHtml
+    public interface IOutputType
     {
+        public string Name { get; }
+        public Exception? exception { get; }
     }
 }
